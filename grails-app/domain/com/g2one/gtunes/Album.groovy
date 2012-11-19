@@ -6,4 +6,9 @@ class Album {
     static hasMany = [songs:Song]
     static constraints = {
     }
+    public String toString()
+    {
+      if( title == null ) return "New"
+      else return title
+    }
 }

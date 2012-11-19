@@ -7,4 +7,9 @@ class Song {
     Album album
     static constraints = {
     }
+    public String toString()
+    {
+      if( title == null ) return "New"
+      else return title
+    }
 }
