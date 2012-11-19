@@ -11,7 +11,9 @@ import org.junit.*
 @TestFor(StoreController)
 class StoreControllerTests {
 
-    void testSomething() {
-       fail "Implement me"
+    void testRenderHomePage() {
+        controller.index()
+         assert "Welcome to the gTunes store!", 
+               controller.response.contentAsString 
     }
 }

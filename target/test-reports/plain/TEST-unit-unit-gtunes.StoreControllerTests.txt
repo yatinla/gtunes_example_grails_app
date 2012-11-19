@@ -1,0 +1,10 @@
+Testsuite: gtunes.StoreControllerTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 2.502 sec
+------------- Standard Output ---------------
+--Output from testRenderHomePage--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testRenderHomePage--
+------------- ---------------- ---------------
+
+Testcase: testRenderHomePage took 2.452 sec
