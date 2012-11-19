@@ -1,10 +1,9 @@
 package com.g2one.gtunes
 
-class Song {
+class Album {
+
     String title
-    String artist
-    Integer duration
-    Album album
+    static hasMany = [songs:Song]
     static constraints = {
     }
 }
